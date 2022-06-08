@@ -2,15 +2,16 @@
 
 A css by L-U-C-A
 
-V 0.02
+V 0.03
 
 Last Changes:
     - added last changes section
     - moved spectate btn
+    - fixed customize button
 
 */
 
-.verticalSeparator, #editorBtnM, .menuSocialB, #faceItIconM, #rankedSoonTm, #menuClassName, #classPreviewCanvas, #menuClassNameTag, #menuClassSubtext, #bubbleContainer, #uiBase.onMenu #voiceDisplay, #tlInfHold, #streamContainer, #newsHolder, #endAContainer, #endAMerger, .endAHolder, #aContainer, #aMerger, #aHolder {
+.verticalSeparator, #editorBtnM, .menuSocialB, #faceItIconM, #rankedSoonTm, #menuClassName, #classPreviewCanvas, #menuClassSubtext, #bubbleContainer, #uiBase.onMenu #voiceDisplay, #tlInfHold, #streamContainer, #newsHolder, #endAContainer, #endAMerger, .endAHolder, #aContainer, #aMerger, #aHolder {
     display: none !important;
     opacity: 0 !important;
 }
@@ -43,6 +44,8 @@ Last Changes:
 }
 
 #menuClassContainer {
+    align-items: flex-start;
+    width: 343px;
     left: 50px;
     top: 0;
     height: 90px;
@@ -66,4 +69,8 @@ Last Changes:
 #uiBase.onMenu #spectButton {
     left: calc(19.5% + 20px);
     top: calc(100% - 120px - 18px / 2 - 20px);
+}
+
+#customizeButton {
+    width: 263px;
 }
