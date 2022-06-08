@@ -2,7 +2,11 @@
 
 A css by L-U-C-A
 
-V 0.01
+V 0.02
+
+Last Changes:
+    - added last changes section
+    - moved spectate btn
 
 */
 
@@ -57,4 +61,9 @@ V 0.01
     top: calc(50% - 500px / 2);
     height: 500px;
     justify-content: center;
+}
+
+#uiBase.onMenu #spectButton {
+    left: calc(19.5% + 20px);
+    top: calc(100% - 120px - 18px / 2 - 20px);
 }
